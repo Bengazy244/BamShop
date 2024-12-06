@@ -9,6 +9,7 @@ export const Product = (props) => {
   const { addToCart, cartItems } = useContext(ShopContext);
 
   const cartItemAmount = cartItems[id];
+
   return (
     <div className="container">
       <div className="product">

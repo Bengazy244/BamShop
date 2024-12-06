@@ -23,6 +23,7 @@ export const Cart = () => {
           }
         })}
       </div>
+      {/* Checkout Section  */}
       {totalAmount > 0 ? (
         <div className="checkout">
           <p className="subtotal">Subtotal: ${totalAmount}</p>

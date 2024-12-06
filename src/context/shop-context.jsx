@@ -27,10 +27,12 @@ export const ShopContextProvider = (props) => {
     setCartItems((prev) => ({ ...prev, [itemId]: prev[itemId] - 1 }));
   };
 
+  // Update the quantity of a product to a new value
   const updateCartItemCount = (newAmount, itemId) => {
     setCartItems((prev) => ({ ...prev, [itemId]: newAmount }));
   };
 
+  // Calculate the total price of items in the cart
   const getTotalCartAmount = () => {
     let totalAmount = 0;
     for (const item in cartItems) {
@@ -43,6 +45,7 @@ export const ShopContextProvider = (props) => {
     return totalAmount;
   };
 
+  // Object containing state and functions
   const contextValue = {
     cartItems,
     addToCart,
