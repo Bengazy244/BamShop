@@ -12,6 +12,7 @@
 .searchbar {
   text-align: center;
   font-size: 40px;
+  margin-top: 50px;
 }
 .search {
   margin: 30px 120px;
@@ -101,6 +102,10 @@
 
     place-items: center;
   }
+
+  .searchbar {
+    margin-top: 70px;
+  }
 }
 
 @media (max-width: 640px) {
@@ -114,5 +119,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 80px;
   }
 }

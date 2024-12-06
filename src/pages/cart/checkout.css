@@ -3,11 +3,9 @@ form div {
 }
 
 .checkout {
-  /* width: "600px"; */
-  /* margin: "auto"; */
-  /* padding: "20px"; */
   grid-area: checkout;
   place-items: center;
+  margin-bottom: 30px;
 }
 
 h1 {

@@ -31,10 +31,7 @@ export const Cart = () => {
           <button onClick={() => navigate("/checkout")}> Checkout </button>
         </div>
       ) : (
-        <p className="empty-cart">
-          {" "}
-          Your Cart is Empty. Please Place an order!
-        </p>
+        <p className="empty-cart"> Your Cart is Empty.Place an order!</p>
       )}
     </div>
   );

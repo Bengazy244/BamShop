@@ -9,6 +9,7 @@
   padding: 0 70px;
   transition: 0.5s;
   grid-area: navbar;
+  position: fixed;
 }
 
 .logo a {

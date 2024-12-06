@@ -5,6 +5,8 @@
   display: flex;
   justify-content: center;
   grid-area: footer;
+  position: absolute;
+  bottom: 0;
 }
 
 .footer p {
