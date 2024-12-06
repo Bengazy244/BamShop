@@ -2,6 +2,18 @@ form div {
   margin-bottom: 15px;
 }
 
+.checkout {
+  /* width: "600px"; */
+  /* margin: "auto"; */
+  /* padding: "20px"; */
+  grid-area: checkout;
+  place-items: center;
+}
+
+h1 {
+  text-align: center;
+}
+
 input {
   width: 100%;
   padding: 8px;

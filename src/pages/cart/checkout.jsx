@@ -68,7 +68,7 @@ const Checkout = () => {
   };
 
   return (
-    <div style={{ maxWidth: "600px", margin: "0 auto", padding: "20px" }}>
+    <div className="checkout">
       <h1>Checkout Form</h1>
 
       {/* Checkout Form */}
@@ -198,7 +198,7 @@ const Checkout = () => {
         </div>
 
         <button type="submit" style={{ marginTop: "20px" }}>
-          Complete Checkout
+          Submit
         </button>
       </form>
     </div>
